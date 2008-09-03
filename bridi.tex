@@ -60,6 +60,7 @@ kennen Sie jetzt schon).
 \lojb{gismu} allein decken schon einen nicht unwesentlichen Teil der Dinge ab, die man ausdr"ucken m"ochte. Mit einem Mechanismus der sp"ater erl"autert werden wird, lassen sich mit
 ihnen unbegrenzt viele Konzepte darstellen.
 
+%das muss unbedingt ueberarbeitet werden
 \subsection{\lojb{lujvo}}
 \lojb{lujvo} sind Worte, die urspr"unglich durch den eben genannten Mechanismus entstanden sind, deren Sinn aber in eine feste Form gegossen wurde. Um dies zu erl"autern greifen
 wir ein wenig vor.
@@ -76,15 +77,16 @@ Funktionen, die aber erst in dem entsprechenden Kapitel beschrieben werden solle
 deshalb ist es manchmal sinnvoll, diese Begriffe zu "ubernehmen. Der genaue Funktionsweise wird ein eigenes Kapitel gewidmet werden (nur soviel sei schon verraten: Spaghetti
 kann man z.B. als \lojb{cidjrspageti} bezeichnen).
 
-\section{Pl"atze und was man damit machen kann}
-\lojb{gismu} (mit wenigen Ausnahmen, wie \lojb{jutsi}) haben maximal f"unf definierte Pl"atze, meistens jedoch weniger (\lojb{remna}, $x_1$ ist ein Mensch, hat beispielsweise nur einen).
-In einem \lojb{bridi} kann das \lojb{selbri} beliebig weit nach hinten geschoben werden, um das vorherige Beispiel aufzugreifen sind:
+\section{\lojb{selbri}, ihre Pl"atze und was man damit machen kann}
+\lojb{gismu} (mit wenigen Ausnahmen, wie \lojb{jutsi}) haben maximal f"unf definierte Pl"atze, meistens jedoch weniger (\lojb{remna}, $x_1$ ist ein Mensch, hat beispielsweise nur einen). F"unf dieser Pl"atze reichen nat"urlich nicht immer aus, um alle m"oglichen Aspekte einer Beziehung zu beschreiben; Lojban schr"ankt Sie hier nat"urlich nicht ein und
+bietet M"oglichkeiten, weitere Informationen hinzuzuf"ugen. Vorerst begn"ugen wir uns aber damit.
+In einem \lojb{bridi} kann das \lojb{selbri} beliebig weit nach hinten geschoben werden, um das vorherige Beispiel aufzugreifen sind
 \begin{quote}
 \lojb{mi klama la .anas. zo'e zo'e le karce \\
 mi la .anas. klama zo'e zo'e le karce \\
 mi la .anas. zo'e zo'e le karce cu klama}
 \end{quote}
-Vollkommen identisch. Das \lojb{cu} ist n"otig um zu verhindern, dass \lojb{karce} und \lojb{klama} ein \lojb{tanru} bilden. \lojb{cu} ist ein Zeichen, dass das \lojb{selbri} des
+vollkommen identisch. Das \lojb{cu} ist n"otig um zu verhindern, dass \lojb{karce} und \lojb{klama} ein \lojb{tanru} bilden. \lojb{cu} ist ein Zeichen, dass das \lojb{selbri} des
 \lojb{bridi} folgt. Theoretisch kann man immer ein \lojb{cu} vor sein \lojb{selbri} legen, zwingend erforderlich ist das aber nur, wenn sich sonst
 die Bedeutung des Satzes ver"andern w"urde. In diesem Fall h"atte man hier gar kein \lojb{selbri} und das Konstrukt am Ende w"urde ``ein autoartiger Gehender'' bedeuten.
 Es steht ihnen v"ollig frei, wo sie ihr \lojb{selbri} plazieren, "ublich ist es jedoch, es zwischen $x_1$ und $x_2$ zu legen.
@@ -108,7 +110,7 @@ Gleichbedeutend ist also die Aussage
 \end{quote}
 (das \lojb{cu} muss hier aus dem selben Grund wie oben verwendet werden)
 
-Genaugenommen vertauscht \lojb{xe} $x_1$ und $_x5$, die Platzstruktur von \lojb{xe klama} ist also:
+Genaugenommen vertauscht \lojb{xe} $x_1$ und $x_5$, die Platzstruktur von \lojb{xe klama} ist also:
 \begin{quote}
 $x_1$ ist ein Fortbewegungsmittel um nach $x_2$ von $x_3$ "uber $x_4$ zu kommen, das von $x_5$ verwendet wird
 \end{quote}
@@ -128,3 +130,45 @@ Der "ubliche Weg um die Anfangs getroffene Aussage auszudr"ucken ist deshalb
 \lojb{mi klama la .anas. fo le karce}
 \end{quote}
 So erspart man dem Zuh"orer das Mitz"ahlen von \lojb{zo'e} oder das Jonglieren mit Umwandlungen.
+Im Zusammenhang mit Platztags tun sich aber einige Fragen auf, so zum Beispiel, welchen Platz \lojb{do} im folgenden \lojb{bridi} belegt:
+\begin{quote}
+\lojb{ti cukta fi la kafkas. do}
+\end{quote}
+(\lojb{ti} bedeutet ``das hier'' und \lojb{do} bedeutet ``du'', mehr dazu im n"achsten Abschnitt)
+Die Definition von \lojb{cukta} ist:
+\begin{quote}
+$x_1$ ist ein Buch auf/in Medium $x_5$ und enth"alt das Werk $x_2$ von Autor $x_3$ f"ur Publikum $x_4$
+\end{quote}
+\lojb{la kafkas.} belegt (durch \lojb{fi}) ohne Zweifel $x_3$, es ist festgelegt, dass f"ur nachfolgende \lojb{sumti} von da an weiter gez"ahlt wird, demnach belegt \lojb{do} $x_4$.
+
+Ein weiterer Grenzfall besteht darin, Platztags so zu benutzen, dass ein Platz \emph{mehrfach} belegt wird:
+\begin{quote}
+%richtig lojbanisiert?
+ti cukta la proTSES. fe la .URtail.
+\end{quote}
+Die Sprachentwickler haben in Ermangelung einer sinnvollen Verwendung definiert, dass dies eine Aussage f"ur beide \lojb{sumti} trifft. Eine m"ogliche "Ubersetzung w"are also:
+``Dieses Buch enth"alt den ``Prozess'' und das ``Urteil''''. Lojban hat aber ein wesentlich eleganteres System, um solche Aussagen zu t"atigen, deshalb sollte man
+eine derartige Verwendung von Platztags eher vermeiden.
+
+\section{\lojb{sumti}}
+Nach \lojb{selbri} soll es jetzt um \lojb{sumti} gehen. Lojban kennt haupts"achlich zwei Wege, um \lojb{sumti} zu erzeugen: pro-\lojb{sumti} und Deskriptoren.
+
+\subsection{pro-\lojb{sumti}}
+Durch den Namen dr"angt sich bereits eine Assoziation zu ``Pronomen'' auf, was in diesem Fall sogar recht gut passt. Pro-\lojb{sumti} sind \lojb{cmavo} des \lojb{selma'o}
+\lojb{KOhA} und k"onnen den Platz eines \lojb{sumti} einnehmen.
+\lojb{mi} und \lojb{do} entsprechen ``Ich'' und ``Du''. Zu ihnen muss man dreierlei anmerken.
+\begin{itemize}
+\item Wer \lojb{do} ist, wird durch \lojb{cmavo} wie \lojb{coi} und \lojb{doi} (letzteres verh"alt sich genau\footnote{fast, \lojb{doi} geh"ort zum \lojb{selma'o} \lojb{DOI}, das
+im Gegensatz zu \lojb{COI} keine Pause vor dem Namen ben"otigt} so wie \lojb{coi}, nur ohne die begr"u"sende Komponente) festgelegt. \lojb{mi} entsprechend durch \lojb{mi'e}, das
+ist wichtig, weil
+\item Weder \lojb{mi} noch \lojb{do} m"ussen einzelne Personen sein, genauso k"onnte man f"ur/zu eine(r) Gruppe von Menschen sprechen.
+\item Anders als im Deutschen hat Lojban keine explizite Respektform (``Sie'' vs. ``Du''), dennoch kann man etwas "ahnliches mit Attitudinals erreichen: \lojb{do .io} entspr"ache
+einem expliziten ``Sie'' (\lojb{.io} ist ein Attitudinal, das ``Respekt'' signalisiert).
+\end{itemize}
+Weiterhin gibt es \lojb{ti}, \lojb{ta} und \lojb{tu} (merken sie sich die Vokalfolge i,a,u, sie ist bei verwandten \lojb{cmavo} h"aufig, wenn nicht wie bei \lojb{fa} alle Vokale
+vorkommen), sie entsprechen den deutschen Demonstrativpronomen (``das hier'', ``jenes'') und unterscheiden sich in der Entfernung, Lojban hat noch einen dritten Entfernungsgrad, \lojb{tu}.
+Auf welche Gr"o"senverh"altnisse die entsprechenden pro-\lojb{sumti} angewendet werden m"ussen h"angt nat"urlich von der Situation ab. "Ubrigens sollten diese pro-\lojb{sumti} nur
+f"ur Dinge verwendet werden, auf die der Sprecher tats"achlich zeigen kann. Um beispielsweise auf Aussagen zu verweisen (was auf Deutsch auch durch Demonstrativpronomina geschieht),
+hat Lojban spezielle pro-\lojb{sumti}.
+
+\subsection{Deskriptoren}
