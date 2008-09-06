@@ -12,16 +12,74 @@ recht h"aufig und erscheinen uns daher als nichts besonderes, andere Sprachen ha
 Die Platzstruktur dieses \lojb{tanru} entspricht der des zweiten \lojb{brivla} (auch \lojb{tertau} genannt). Den Pl"atzen des modifizierenden
 \lojb{brivla} (dem \lojb{seltau}) k"onnen auch \lojb{sumti} zugewiesen werden, wie sehen wir sp"ater.
 
-Wie w"urde man ein gro"ses Hundehaus nennen? \lojb{barda} bedeutet ``grosz'', demnach liegt es nahe, etwas wie \lojb{barda gerku zdani} zu vermuten.
+Wie w"urde man ein gro"ses Hundehaus nennen? \lojb{barda} bedeutet ``gro"s'', demnach liegt es nahe, etwas wie \lojb{barda gerku zdani} zu vermuten.
 %hier ein beispiel bzgl grouping im deutschen einfuegen
 Genau deshalb ist in Lojban die ``Klammerung'' (engl. grouping) festgelegt, die implizite Klammerung in Lojban ist linksgerichtet: \lojb{barda}
 modifiziert \lojb{gerku} und \lojb{barda gerku} modifiziert \lojb{zdani}. Demnach ist ein \lojb{barda gerku zdani} ein Haus f"ur gro"se Hunde.
 Lojban bietet mehrere M"oglichkeiten, diese Regel passend zu modifizieren. Eine M"oglichkeit ist, \lojb{bo} zu verwenden, es taucht an mehreren
 Stellen in der Grammatik auf und dient dazu, Worte und Phrasen zusammenzubinden. In \lojb{barda gerku bo zdani} bindet das \lojb{bo} \lojb{gerku}
 und \lojb{zdani} zusammen, so dass beide zusammen von \lojb{barda} modifiziert werden: Aus ((\lojb{barda gerku}) \lojb{zdani}) wird also
-(\lojb{barda} (\lojb{gerku (bo) zdani})).
+(\lojb{barda} (\lojb{gerku bo zdani})).
 
 Eine andere, noch m"achtigere M"oglichkeit stellen \lojb{ke} und \lojb{ke'e} dar, sie entsprechen direkt den eben zur Erl"auterung verwendeten
 Klammern. Gleichwertig zu der Variante mit \lojb{bo} w"are also \lojb{barda ke gerku zdani [ke'e]}, wobei das \lojb{ke'e} optional ist.
 
 \lojb{tanru} k"onnen beliebig komplex sein, ein Beispiel daf"ur findet sich im letzten Abschnitt des Kapitels 5 der Referenzgrammatik.
+
+\subsection{\lojb{sumti} einbinden}
+Eine Maschine, die Hundeh"auser baut, k"onnte man demnach \lojb{gerku zdani zbasu bo minji} nennen, eleganter und \emph{lojbanischer} ist es jedoch,
+ das $x_2$ von \lojb{zbasu}\footnote{$x_1$ setzt $x_2$ zusammen aus $x_3$} zu verwenden, da \lojb{zbasu} jedoch das \lojb{seltau} ist, k"onnen
+wir dessen \lojb{sumti} nicht direkt angeben. Hier kommt das \lojb{cmavo} \lojb{be} ins Spiel, das es erm"oglicht, \lojb{sumti} in \lojb{selbri}
+einzubinden (engl. linking \lojb{sumti}).
+Die bessere L"osung ist also \lojb{zbasu be lo gerku zdani ku minji}. Standardm"a"sig beginnt \lojb{be} mit $x_2$, weitere \lojb{sumti} lassen
+sich dann mit \lojb{bei} dazubinden. Eine Maschine, die Hundeh"auser aus Holzst"ucken baut w"are \lojb{zbasu be lo gerku zdani bei lo mudri spisa ku minji}, hier ist das \lojb{ku} nach \lojb{zdani} nicht n"otig, da das \lojb{bei} schon signalisiert, dass das \lojb{be}, das ja zu \lojb{zbasu} geh"ort, fortgesetzt wird.
+Wenn Sie sich mehr Flexibilit"at w"unschen, so k"onnen Sie auch hier Platz-Tags verwenden: \lojb{zbasu be fi lo mudri spisa ku minji} ist eine
+Maschine, die etwas aus Holzst"ucken zusammensetzt.
+
+\subsection{\lojb{tanru}-Umkehrung}
+Ein Mittel, das es manchmal erm"oglicht, das selbe wie mit \lojb{be} auf eine elegantere Art zu erreichen, ist \lojb{co}. Im ``Alltagslojban''
+kommt es nicht sehr h"aufig vor, in lojbanischer Poesie jedoch h"aufiger.
+Es vertauscht \lojb{seltau} und \lojb{tertau}, wenn es zwischen ihnen plaziert wird und alle \lojb{sumti} nach dem \lojb{selbri} werden in das
+\lojb{seltau} eingebunden. Zur Erl"auterung sind folgende Aussagen vollkommen gleichwertig:
+\begin{quote}
+\lojb{ti zbasu be lo gerku zdani bei lo mudri spisa ku minji} \\
+\lojb{ti minji co zbasu lo gerku zdani lo mudri spisa} \\
+Dies ist eine Maschine, die Hundeh"auser aus Holzst"ucken zusammensetzt.
+\end{quote}
+
+\section{\lojb{BAI}-Tags}
+Oftmals reichen die bisher beschriebenen Methoden nicht, all die Informationen unterzubringen, die man gerne unterbringen m"ochte. Ein weiterer,
+m"achtiger weg sind \lojb{BAI}-Tags (auf Englisch auch ``modals'' genannt). Ein Beispiel f"ur einen \lojb{BAI}-Tag (Lojban kennt "uber 200!) ist
+\lojb{gau} (abgeleitet von \lojb{gasnu}, $x_1$ verursacht $x_2$). Diese \lojb{cmavo} werden, "ahnlich wie Platztags vor \lojb{sumti} gestellt
+und erzeugen einen weiteren Platz. \lojb{la tsezar morsi gau la brutus} bedeutet direkt "ubersetzt
+\begin{quote}
+Caesar ist tot, der Akteur ist Brutus
+\end{quote}
+Hieran kann man sowohl die ``Gefahr'' alsauch die N"utzlichkeit von \lojb{BAI}-Tags ableiten. Genauer w"are es n"amlich gewesen, \lojb{catra} zu
+verwenden: $x_1$ t"otet $x_2$ durch $x_3$. In diesem Fall ist zwar noch relativ eindeutig, was mit \lojb{gau} gemeint ist, aber das muss nicht
+immer der Fall sein. Andererseits k"onnen Ihnen \lojb{BAI}-Tags helfen, wenn sie z.B. nur \lojb{morji}, aber nicht \lojb{catra} kennen.
+
+Der \lojb{BAI}-Tag \lojb{se pi'o} (dies ist ein sogenannter ``\lojb{cmavo} cluster'', also eine Ansammlung von \lojb{cmavo}) bedeutet ``mit Werkzeug..'' und ist von \lojb{pilno} abgeleitet ($x_1$ benutzt Werkzeug (im weitesten Sinne) $x_2$ f"ur $x_3$). Wie sie sehen haben \lojb{BAI}-Tags
+eine starke "Ahnlichkeit mit den \lojb{gismu} von denen sie abgeleitet wurden: \lojb{pi'o} bedeutet ``Mit Benutzer..''.
+Sollte Ihnen also einmal die Platzstruktur von \lojb{klama} entfallen und Sie wollen sagen, dass sie mit dem Auto fahren, k"onnten Sie also sagen: \lojb{mi klama sepi'o le karce}.
+Nutzen Sie aber wenn m"oglich die festgelegten Pl"atze um ihren Zuh"orern das Herumr"atseln zu ersparen.
+
+Nur was, wenn es keinen \lojb{BAI}-Tag gibt, der das ausdr"uckt, was Sie wollen? Oder wenn Sie sich gerade nicht daran erinnern k"onnen? (es gibt
+vermutlich keinen Lojbanist, der \emph{alle} \lojb{BAI}-Tags auswendig kennt)
+F"ur diesen Fall hat Lojban das \lojb{cmavo} \lojb{fi'o}, das aus einem beliebigen \lojb{selbri} einen vollwertigen \lojb{BAI}-Tag erzeugt, der das $x_1$ des \lojb{selbri} aufnimmt.
+\begin{quote}
+\lojb{mi klama le zarci fi'o sofybakni la alman} \\
+Ich gehe zum Laden, involviert ist die sovietische Kuh ``Alma''.
+\end{quote}
+Wie sie sehen kann dieses \lojb{cmavo} sehr zur Verwirrung beitragen, doch es gibt auch sinnvolle Anwendungen:
+\begin{quote}
+\lojb{mi viska do fi'o kanla\footnote{$x_1$ ist ein Auge von $x_2$} le zunle} \\
+Ich sehe dich. Mit Auge: Etwas linkes. \\
+Ich sehe dich mit dem linken Auge.
+\end{quote}
+
+\section{Zeiten}
+Das Zeitensystem von Lojban ist "au"serst umfangreich und vermag sehr viele Konzepte auszudr"ucken, die in anderen Sprachen nicht unbedingt
+m"oglich sind (und erscheint deshalb manchmal, gegen die eigene Intuition zu arbeiten); das Kapitel zu Zeiten ist das l"angste in der
+Referenzgrammatik. Deshalb kann hier nur ein Bruchteil davon erl"autert werden, sollten Sie mehr erfahren wollen werden konsultieren Sie Kapitel
+10 der Referenzgrammatik.
